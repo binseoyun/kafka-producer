@@ -5,7 +5,7 @@ import time
 
 BROKER_LST = 'kafka01:9092,kafka02:9092,kafka03:9092'
 
-
+##
 class SimpleProducer:
 
     def __init__(self, topic, duration=None):

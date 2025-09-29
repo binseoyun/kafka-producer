@@ -30,3 +30,8 @@ hooks:
     - location: deploy/after_install.sh #코드 배포가 이루어지고 나서 할 action일 이 파일에 저장
       timeout: 120
       runas: kafka
+
+  ApplicationStart:
+    - location: deploy/application_start.sh
+      timeout: 60
+      runas: root
